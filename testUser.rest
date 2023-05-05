@@ -1,0 +1,15 @@
+# # ###### USER ###### #
+GET http://localhost:3001/user
+# POST http://192.168.31.195:3001/user/signup
+# POST http://localhost:3001/user/login
+# DELETE http://192.168.1.12:3001/user/a88@as
+# PUT http://192.168.1.16:3001/user/749@gmail.ar
+# PATCH http://172.16.4.147:3001/user/modify/a@a
+Content-Type: application/json
+
+{
+    "email": "12377@gmail.com",
+    "password": "1991"
+}
+
+# "photoDeProfile": "android.graphics.drawable.BitmapDrawable@cc2115d"
